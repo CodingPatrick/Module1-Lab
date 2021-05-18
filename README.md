@@ -1,4 +1,4 @@
-# Code for Website deployment
+# Code for Website deployment - Lab 1
 
 Survey for Module 1 of SEG 3125
 
