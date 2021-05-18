@@ -1,1 +1,76 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Apple Survey </title>
+    <link rel="shortcut icon" type="image/png" href="pictures/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Survey - Rate the Apple Web Page</h1>
+
+        <h2>Estimated completion time: 8 minutes</h2>
+        Click the link or the image to view the web page: <a href="https://www.apple.com">https://www.apple.com</a><br>
+        <a href="https://www.apple.com"><img class="img-fluid" src="pictures/appleweb.png" /></a>
+
+        <div class="survey">
+            <form>
+                <h3>Information collection</h3>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="fname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="fname">Email:</label>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="text" id="email" name="email">
+
+                <h3>How easy was it to navigate the website?</h3>
+                <input type="radio" id="veasy" name="veasy" value="veasy">
+                <label for="veasy">Very easy</label><br>
+                <input type="radio" id="easy" name="easy" value="easy">
+                <label for="easy">Easy</label><br>
+                <input type="radio" id="difficult" name="difficult" value="difficult">
+                <label for="difficult">Difficult</label><br>
+                <input type="radio" id="vdifficult" name="vdifficult" value="vdifficult">
+                <label for="vdifficult">Very difficult</label>
+
+                <h3>How would you rate the website from 1 to 5?</h3>
+                <select name="cars" id="cars">
+                    <option value="empty"> </option>
+                    <option value="five">5 (best)</option>
+                    <option value="four">4 (above average)</option>
+                    <option value="three">3 (average)</option>
+                    <option value="two">2 (below average)</option>
+                    <option value="one">1 (worst)</option>
+                </select>
+
+                <h3>How did you hear about this website?</h3>
+                <input type="checkbox" id="media" name="media" value="media">
+                <label for="media">Social media</label><br>
+                <input type="checkbox" id="advertisement" name="advertisement" value="advertisement">
+                <label for="advertisement">Google advertisement</label><br>
+                <input type="checkbox" id="friend" name="friend" value="friend">
+                <label for="friend">From a friend</label><br>
+                <input type="checkbox" id="blog" name="blog" value="blog">
+                <label for="blog">Blog post</label><br>
+                <input type="checkbox" id="other" name="other" value="other">
+                <label for="other">Other</label>
+
+                <h3>Any suggestions to improve the website?</h3>
+                <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Survey designed by: Arsène Lupin ⚡ &nbsp&nbsp&nbsp&nbsp&nbsp</p>
+    </footer>
+
+</body>
+
+</html>
